@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>注册</title>
+    <link rel="stylesheet" type="text/css" href="../css/iconfont.css" />
+    <link rel="stylesheet" href="../css/register.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="wrap_main">
+        <div class="logobox clearfix">
+          <a><i class="iconfont icon-CombinedShape"></i></a>
+        </div>
+        <h4>注册小米账号</h4>
+        <h5>注册账号</h5>
+        <form >
+        <input type="text" id="username" oninput="checkUsername()" placeholder="以英文开头,5位数字以上,8位数字以内"/>
+        <span></span>
+        <h5>登录密码</h5>
+        <input type="password" id="password" />
+
+       <!--  <button>立即注册</button>  -->
+        <input type="button" value="立即注册" id="btn">
+      </form>
+        <p>
+          已阅读并同意：小米
+          <b>用户协议</b>
+          和
+          <b>隐私政策</b>
+        </p>
+      </div>
+      <ul>
+        <li>
+          <a href="#">简体</a>
+          |
+        </li>
+
+        <li>
+          <a href="#"> 繁体</a>
+          |
+        </li>
+
+        <li>
+          <a href="#"> English</a>
+          |</li>
+        </li>
+
+        <li><a href="#"> 常见问题</a></li>
+      </ul>
+      <div class="footer_p">
+        小米公司版权所有-京ICP备10046444-
+        <img
+          src="https://account.xiaomi.com/static/res/9204d06/account-static/respassport/acc-2014/img/ghs.png"
+        />
+        京公网安备11010802020134号-京ICP证110507号
+      </div>
+    </div>
+    <script src="../js/jquery1.12.4.min.js"></script>
+    <script src="../js/register.js"></script>
+  </body>
+</html>
