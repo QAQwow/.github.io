@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.wrap {
+  width: 100%;
+  overflow: hidden;
+  height: 100%;
+  background: rgb(249, 249, 249);
+  position: relative;
+}
+.wrap_main {
+  width: 853px;
+  height: 638px;
+  margin: 5% auto;
+  background: white;
+  padding: 0 34px 30px 30px;
+  text-align: center;
+  position: relative;
+}
+.wrap_main .logobox a i {
+  font-size: 58px;
+  color: #ff6700;
+}
+.wrap_main .logobox {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.wrap_main h4 {
+  font-size: 30px;
+  text-align: center;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+.wrap_main h5 {
+  color: rgb(51, 51, 51);
+  font-weight: normal;
+  font-size: 18px;
+  text-indent: -268px;
+  margin-bottom: 5px;
+  margin-top: 24px;
+}
+.wrap_main span {
+  position: absolute;
+  right: 50px;
+  top: 210px;
+  color: #333333;
+  font-size: 10px;
+}
+#username {
+  width: 332px;
+  height: 42px;
+  padding-left: 16px;
+  border: 1px solid #999999;
+  font-size: 18px;
+  outline: none;
+}
+#password {
+  width: 332px;
+  height: 42px;
+  padding-left: 16px;
+  border: 1px solid #999999;
+  font-size: 18px;
+  outline: none;
+}
+#btn {
+  display: block;
+  width: 358px;
+  height: 52px;
+  text-align: center;
+  line-height: 42px;
+  font-size: 18px;
+  color: white;
+  background: #ff6700;
+  margin: 30px auto;
+  border: 0;
+  outline: none;
+}
+#btn:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+.wrap_main p {
+  padding: 100px;
+  box-sizing: border-box;
+  color: #9d9d9d;
+  cursor: pointer;
+}
+.wrap_main p b {
+  color: black;
+}
+.wrap .footer_p {
+  position: absolute;
+  bottom: 36px;
+  left: 50%;
+  margin-left: -333px;
+  color: #9d9d9d;
+}
+.wrap ul li {
+  float: left;
+  list-style: none;
+  color: #9d9d9d;
+  padding: 0 10px 0 10px;
+}
+.wrap ul li a {
+  text-decoration: none;
+  color: #9d9d9d;
+}
+.wrap ul {
+  position: absolute;
+  bottom: 86px;
+  left: 50%;
+  margin-left: -144px;
+}
+.wrap_main .hot {
+  position: absolute;
+  right: 154px;
+  top: 210px;
+  color: green;
+  font-size: 10px;
+}
+
+.wrap_main .eer {
+  position: absolute;
+  right: 50px;
+  top: 210px;
+  color: red;
+  font-size: 10px;
+}

@@ -1,0 +1,190 @@
+$color: #ff6700;
+.login_banner {
+  background: url('https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/72644d9b8031286de3cc74e151aefd90.jpg')
+    no-repeat center center;
+  .loginbar {
+    height: 588px;
+    .box {
+      width: 410px;
+      height: 526px;
+      float: right;
+      background: white;
+      margin-top: 62px;
+    }
+    .aa {
+      color: #999999;
+      a {
+        display: block;
+        float: left;
+        width: 200px;
+        height: 80px;
+        text-align: center;
+        line-height: 80px;
+        font-size: 24px;
+        color: #999999;
+        position: relative;
+        font-weight: bold;
+      }
+      a:nth-of-type(1) {
+        color: $color;
+      }
+      b {
+        position: absolute;
+        width: 2px;
+        height: 40px;
+        background: #999999;
+        right: 0;
+        top: 20px;
+      }
+    }
+    .bb {
+      text-align: center;
+      #username {
+        display: block;
+        box-sizing: border-box;
+        width: 346px;
+        height: 48px;
+        padding: 13px 16px 13px 14px;
+        border: 1px solid #b0b0b0;
+        margin: auto {
+          bottom: 14px;
+        }
+      }
+      #password {
+        display: block;
+        box-sizing: border-box;
+        width: 346px;
+        height: 48px;
+        padding: 13px 16px 13px 14px;
+        border: 1px solid #b0b0b0;
+        margin: auto {
+          bottom: 14px;
+        }
+      }
+      #sub {
+        display: block;
+        width: 348px;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        background: $color;
+        color: white;
+        border: 0px;
+        outline: none;
+        &:hover {
+          cursor: pointer;
+        }
+        margin: auto {
+          top: 10px;
+          bottom: 10px;
+        }
+      }
+      p {
+        color: $color;
+        margin-bottom: 40px;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+      a {
+        color: #999999;
+        position: relative;
+        margin-left: 5px;
+        b {
+          position: absolute;
+          width: 1px;
+          height: 15px;
+          background: #999999;
+          right: 0;
+          top: 2px;
+        }
+      }
+    }
+    .cc {
+      height: 184px;
+      padding-top: 143px;
+      box-sizing: border-box;
+      text-align: center;
+      padding-left: 100px;
+      i {
+        display: block;
+        float: left;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        color: white;
+        line-height: 30px;
+        font-size: 20px;
+        margin-left: 30px;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+      i:nth-of-type(1) {
+        margin: 0;
+        background: rgb(2, 136, 209);
+      }
+      i:nth-of-type(2) {
+        background: rgb(211, 47, 47);
+      }
+      i:nth-of-type(3) {
+        background: rgb(0, 170, 238);
+      }
+      i:nth-of-type(4) {
+        background: rgb(0, 210, 13);
+      }
+    }
+  }
+}
+
+.log {
+  height: 98px;
+  .loglog {
+    width: 240px;
+    height: 98px;
+  }
+  i {
+    display: block;
+    float: left;
+    color: $color;
+    font-size: 50px;
+    line-height: 98px;
+  }
+  h1 {
+    font-size: 28px;
+    float: left;
+    margin: 10px {
+      top: 20px;
+      bottom: 0px;
+    }
+  }
+  p {
+    float: left;
+    font-size: 8px;
+    color: #999999;
+    margin: 10px {
+      top: -3px;
+      left: 10px;
+    }
+  }
+}
+
+.pp {
+  position: absolute;
+  left: 50%;
+  bottom: 175px;
+  margin-left: -154px;
+  ul li {
+    float: left;
+
+    padding: 0 10px 0 10px;
+    color: #b0b0b0;
+  }
+}
+.footer_p {
+  position: absolute;
+  color: #b0b0b0;
+  left: 50%;
+  bottom: 134px;
+  margin-left: -254px;
+}

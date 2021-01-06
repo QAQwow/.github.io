@@ -1,0 +1,30 @@
+h1,
+h2 {
+  text-align: center;
+}
+h2 {
+  display: none;
+}
+.box {
+  width: 800px;
+  margin: 10px auto;
+  /*  background: pink; */
+  text-align: center;
+}
+.box thead tr th {
+  height: 27px;
+  width: 133px;
+}
+.box thead tr td {
+  text-align: center;
+}
+
+img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin-left: 10px;
+}
+span {
+  cursor: pointer;
+}

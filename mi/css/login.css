@@ -1,0 +1,210 @@
+.login_banner {
+  background: url("https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/72644d9b8031286de3cc74e151aefd90.jpg") no-repeat center center;
+}
+
+.login_banner .loginbar {
+  height: 588px;
+}
+
+.login_banner .loginbar .box {
+  width: 410px;
+  height: 526px;
+  float: right;
+  background: white;
+  margin-top: 62px;
+}
+
+.login_banner .loginbar .aa {
+  color: #999999;
+}
+
+.login_banner .loginbar .aa a {
+  display: block;
+  float: left;
+  width: 200px;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+  font-size: 24px;
+  color: #999999;
+  position: relative;
+  font-weight: bold;
+}
+
+.login_banner .loginbar .aa a:nth-of-type(1) {
+  color: #ff6700;
+}
+
+.login_banner .loginbar .aa b {
+  position: absolute;
+  width: 2px;
+  height: 40px;
+  background: #999999;
+  right: 0;
+  top: 20px;
+}
+
+.login_banner .loginbar .bb {
+  text-align: center;
+}
+
+.login_banner .loginbar .bb #username {
+  display: block;
+  box-sizing: border-box;
+  width: 346px;
+  height: 48px;
+  padding: 13px 16px 13px 14px;
+  border: 1px solid #b0b0b0;
+  margin: auto;
+  margin-bottom: 14px;
+}
+
+.login_banner .loginbar .bb #password {
+  display: block;
+  box-sizing: border-box;
+  width: 346px;
+  height: 48px;
+  padding: 13px 16px 13px 14px;
+  border: 1px solid #b0b0b0;
+  margin: auto;
+  margin-bottom: 14px;
+}
+
+.login_banner .loginbar .bb #sub {
+  display: block;
+  width: 348px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  background: #ff6700;
+  color: white;
+  border: 0px;
+  outline: none;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.login_banner .loginbar .bb #sub:hover {
+  cursor: pointer;
+}
+
+.login_banner .loginbar .bb p {
+  color: #ff6700;
+  margin-bottom: 40px;
+}
+
+.login_banner .loginbar .bb p:hover {
+  cursor: pointer;
+}
+
+.login_banner .loginbar .bb a {
+  color: #999999;
+  position: relative;
+  margin-left: 5px;
+}
+
+.login_banner .loginbar .bb a b {
+  position: absolute;
+  width: 1px;
+  height: 15px;
+  background: #999999;
+  right: 0;
+  top: 2px;
+}
+
+.login_banner .loginbar .cc {
+  height: 184px;
+  padding-top: 143px;
+  box-sizing: border-box;
+  text-align: center;
+  padding-left: 100px;
+}
+
+.login_banner .loginbar .cc i {
+  display: block;
+  float: left;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: white;
+  line-height: 30px;
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+.login_banner .loginbar .cc i:hover {
+  cursor: pointer;
+}
+
+.login_banner .loginbar .cc i:nth-of-type(1) {
+  margin: 0;
+  background: #0288d1;
+}
+
+.login_banner .loginbar .cc i:nth-of-type(2) {
+  background: #d32f2f;
+}
+
+.login_banner .loginbar .cc i:nth-of-type(3) {
+  background: #00aaee;
+}
+
+.login_banner .loginbar .cc i:nth-of-type(4) {
+  background: #00d20d;
+}
+
+.log {
+  height: 98px;
+}
+
+.log .loglog {
+  width: 240px;
+  height: 98px;
+}
+
+.log i {
+  display: block;
+  float: left;
+  color: #ff6700;
+  font-size: 50px;
+  line-height: 98px;
+}
+
+.log h1 {
+  font-size: 28px;
+  float: left;
+  margin: 10px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.log p {
+  float: left;
+  font-size: 8px;
+  color: #999999;
+  margin: 10px;
+  margin-top: -3px;
+  margin-left: 10px;
+}
+
+.pp {
+  position: absolute;
+  left: 50%;
+  bottom: 175px;
+  margin-left: -154px;
+}
+
+.pp ul li {
+  float: left;
+  padding: 0 10px 0 10px;
+  color: #b0b0b0;
+}
+
+.footer_p {
+  position: absolute;
+  color: #b0b0b0;
+  left: 50%;
+  bottom: 134px;
+  margin-left: -254px;
+}
